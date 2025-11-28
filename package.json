@@ -1,0 +1,13 @@
+{
+  "name": "i18n-sample",
+  "version": "1.0.0",
+  "description": "サンプルコード: TypeScriptの型システムを活用した翻訳メッセージの型チェック",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "example": "ts-node example.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
